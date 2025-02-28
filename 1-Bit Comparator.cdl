@@ -1,0 +1,970 @@
+<circuit>
+<CurrentPage>0</CurrentPage>
+<page 0>
+<PageViewport>9,11,148.4,-58.4</PageViewport>
+<gate>
+<ID>2</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>29,-14</position>
+<input>
+<ID>IN_0</ID>3 </input>
+<output>
+<ID>OUT_0</ID>1 </output>
+<gparam>angle 270</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>4</ID>
+<type>AA_LABEL</type>
+<position>25,-5.5</position>
+<gparam>LABEL_TEXT A</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>5</ID>
+<type>AE_SMALL_INVERTER</type>
+<position>39.5,-14</position>
+<input>
+<ID>IN_0</ID>10 </input>
+<output>
+<ID>OUT_0</ID>4 </output>
+<gparam>angle 270</gparam>
+<lparam>DEFAULT_DELAY 1</lparam>
+<lparam>INPUT_BITS 1</lparam></gate>
+<gate>
+<ID>6</ID>
+<type>AA_LABEL</type>
+<position>35,-5.5</position>
+<gparam>LABEL_TEXT B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>8</ID>
+<type>AA_AND2</type>
+<position>62.5,-21.5</position>
+<input>
+<ID>IN_0</ID>1 </input>
+<input>
+<ID>IN_1</ID>10 </input>
+<output>
+<ID>OUT</ID>7 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>10</ID>
+<type>AA_AND2</type>
+<position>51,-31</position>
+<input>
+<ID>IN_0</ID>4 </input>
+<input>
+<ID>IN_1</ID>1 </input>
+<output>
+<ID>OUT</ID>6 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>11</ID>
+<type>AA_AND2</type>
+<position>51,-37.5</position>
+<input>
+<ID>IN_0</ID>3 </input>
+<input>
+<ID>IN_1</ID>10 </input>
+<output>
+<ID>OUT</ID>5 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>12</ID>
+<type>AA_AND2</type>
+<position>62.5,-44.5</position>
+<input>
+<ID>IN_0</ID>3 </input>
+<input>
+<ID>IN_1</ID>4 </input>
+<output>
+<ID>OUT</ID>9 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>14</ID>
+<type>AA_TOGGLE</type>
+<position>35,-8.5</position>
+<output>
+<ID>OUT_0</ID>10 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>15</ID>
+<type>AA_TOGGLE</type>
+<position>25.5,-9</position>
+<output>
+<ID>OUT_0</ID>3 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 270</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
+<gate>
+<ID>17</ID>
+<type>AE_OR2</type>
+<position>62.5,-34</position>
+<input>
+<ID>IN_0</ID>6 </input>
+<input>
+<ID>IN_1</ID>5 </input>
+<output>
+<ID>OUT</ID>8 </output>
+<gparam>angle 0.0</gparam>
+<lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>19</ID>
+<type>GA_LED</type>
+<position>68.5,-21.5</position>
+<input>
+<ID>N_in0</ID>7 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>20</ID>
+<type>GA_LED</type>
+<position>69,-34</position>
+<input>
+<ID>N_in0</ID>8 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>21</ID>
+<type>GA_LED</type>
+<position>69.5,-44.5</position>
+<input>
+<ID>N_in0</ID>9 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>22</ID>
+<type>AA_LABEL</type>
+<position>73.5,-21</position>
+<gparam>LABEL_TEXT AB</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>23</ID>
+<type>AA_LABEL</type>
+<position>74,-33.5</position>
+<gparam>LABEL_TEXT A=B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>24</ID>
+<type>AA_LABEL</type>
+<position>74.5,-44</position>
+<gparam>LABEL_TEXT A>B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>26</ID>
+<type>AA_LABEL</type>
+<position>76,4</position>
+<gparam>LABEL_TEXT 1-bit Binary Comparator</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>28</ID>
+<type>AA_LABEL</type>
+<position>120.5,-5</position>
+<gparam>LABEL_TEXT Truth Table</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>30</ID>
+<type>AA_LABEL</type>
+<position>102,-12</position>
+<gparam>LABEL_TEXT Input</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>32</ID>
+<type>AA_LABEL</type>
+<position>127.5,-12</position>
+<gparam>LABEL_TEXT Output</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>34</ID>
+<type>AA_LABEL</type>
+<position>98,-20</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>35</ID>
+<type>AA_LABEL</type>
+<position>98,-24</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>36</ID>
+<type>AA_LABEL</type>
+<position>98,-28.5</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>37</ID>
+<type>AA_LABEL</type>
+<position>98,-32.5</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>39</ID>
+<type>AA_LABEL</type>
+<position>98,-15.5</position>
+<gparam>LABEL_TEXT A</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>40</ID>
+<type>AA_LABEL</type>
+<position>107,-15.5</position>
+<gparam>LABEL_TEXT B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>41</ID>
+<type>AA_LABEL</type>
+<position>107.5,-20</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>42</ID>
+<type>AA_LABEL</type>
+<position>107.5,-24</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>43</ID>
+<type>AA_LABEL</type>
+<position>107.5,-28</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>44</ID>
+<type>AA_LABEL</type>
+<position>107.5,-32.5</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>46</ID>
+<type>AA_LABEL</type>
+<position>102.5,-15</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>47</ID>
+<type>AA_LABEL</type>
+<position>102.5,-17.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>48</ID>
+<type>AA_LABEL</type>
+<position>102.5,-20</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>49</ID>
+<type>AA_LABEL</type>
+<position>102.5,-22.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>50</ID>
+<type>AA_LABEL</type>
+<position>102.5,-25</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>51</ID>
+<type>AA_LABEL</type>
+<position>102.5,-27.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>52</ID>
+<type>AA_LABEL</type>
+<position>102.5,-30</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>53</ID>
+<type>AA_LABEL</type>
+<position>102.5,-32.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>56</ID>
+<type>AA_LABEL</type>
+<position>97,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>57</ID>
+<type>AA_LABEL</type>
+<position>99.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>58</ID>
+<type>AA_LABEL</type>
+<position>102,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>59</ID>
+<type>AA_LABEL</type>
+<position>104.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>60</ID>
+<type>AA_LABEL</type>
+<position>107,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>61</ID>
+<type>AA_LABEL</type>
+<position>109.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>62</ID>
+<type>AA_LABEL</type>
+<position>112,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>63</ID>
+<type>AA_LABEL</type>
+<position>114.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>64</ID>
+<type>AA_LABEL</type>
+<position>117,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>65</ID>
+<type>AA_LABEL</type>
+<position>119.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>66</ID>
+<type>AA_LABEL</type>
+<position>122,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>67</ID>
+<type>AA_LABEL</type>
+<position>124.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>68</ID>
+<type>AA_LABEL</type>
+<position>127,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>69</ID>
+<type>AA_LABEL</type>
+<position>129.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>70</ID>
+<type>AA_LABEL</type>
+<position>132,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>71</ID>
+<type>AA_LABEL</type>
+<position>134.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>72</ID>
+<type>AA_LABEL</type>
+<position>137,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>73</ID>
+<type>AA_LABEL</type>
+<position>111.5,-16.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>74</ID>
+<type>AA_LABEL</type>
+<position>111.5,-19</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>75</ID>
+<type>AA_LABEL</type>
+<position>111.5,-21.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>76</ID>
+<type>AA_LABEL</type>
+<position>111.5,-24</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>77</ID>
+<type>AA_LABEL</type>
+<position>111.5,-26.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>78</ID>
+<type>AA_LABEL</type>
+<position>111.5,-29</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>79</ID>
+<type>AA_LABEL</type>
+<position>111.5,-31.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>80</ID>
+<type>AA_LABEL</type>
+<position>111.5,-34</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>81</ID>
+<type>AA_LABEL</type>
+<position>94.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>83</ID>
+<type>AA_LABEL</type>
+<position>118,-15.5</position>
+<gparam>LABEL_TEXT A  B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>84</ID>
+<type>AA_LABEL</type>
+<position>139.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>85</ID>
+<type>AA_LABEL</type>
+<position>142,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>86</ID>
+<type>AA_LABEL</type>
+<position>144.5,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>87</ID>
+<type>AA_LABEL</type>
+<position>117.5,-20</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>88</ID>
+<type>AA_LABEL</type>
+<position>117.5,-24</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>89</ID>
+<type>AA_LABEL</type>
+<position>117.5,-28</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>90</ID>
+<type>AA_LABEL</type>
+<position>117.5,-32.5</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>91</ID>
+<type>AA_LABEL</type>
+<position>124.5,-16.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>93</ID>
+<type>AA_LABEL</type>
+<position>124.5,-19</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>94</ID>
+<type>AA_LABEL</type>
+<position>124.5,-21.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>95</ID>
+<type>AA_LABEL</type>
+<position>124.5,-24</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>96</ID>
+<type>AA_LABEL</type>
+<position>124.5,-26.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>97</ID>
+<type>AA_LABEL</type>
+<position>124.5,-29</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>98</ID>
+<type>AA_LABEL</type>
+<position>124.5,-31.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>99</ID>
+<type>AA_LABEL</type>
+<position>124.5,-34</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>101</ID>
+<type>AA_LABEL</type>
+<position>130.5,-15.5</position>
+<gparam>LABEL_TEXT A = B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>102</ID>
+<type>AA_LABEL</type>
+<position>129.5,-20</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>103</ID>
+<type>AA_LABEL</type>
+<position>129.5,-32.5</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>104</ID>
+<type>AA_LABEL</type>
+<position>129.5,-24</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>105</ID>
+<type>AA_LABEL</type>
+<position>129.5,-28</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>106</ID>
+<type>AA_LABEL</type>
+<position>137.5,-16.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>107</ID>
+<type>AA_LABEL</type>
+<position>137.5,-19</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>108</ID>
+<type>AA_LABEL</type>
+<position>137.5,-21.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>109</ID>
+<type>AA_LABEL</type>
+<position>137.5,-24</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>110</ID>
+<type>AA_LABEL</type>
+<position>137.5,-26.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>111</ID>
+<type>AA_LABEL</type>
+<position>137.5,-29</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>112</ID>
+<type>AA_LABEL</type>
+<position>137.5,-31.5</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>113</ID>
+<type>AA_LABEL</type>
+<position>137.5,-34</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 180</gparam></gate>
+<gate>
+<ID>115</ID>
+<type>AA_LABEL</type>
+<position>142,-15.5</position>
+<gparam>LABEL_TEXT A > B</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>116</ID>
+<type>AA_LABEL</type>
+<position>147,-18</position>
+<gparam>LABEL_TEXT |</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 90</gparam></gate>
+<gate>
+<ID>117</ID>
+<type>AA_LABEL</type>
+<position>142.5,-20</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>118</ID>
+<type>AA_LABEL</type>
+<position>142.5,-24</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>119</ID>
+<type>AA_LABEL</type>
+<position>142.5,-32.5</position>
+<gparam>LABEL_TEXT 0</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
+<ID>120</ID>
+<type>AA_LABEL</type>
+<position>142.5,-28</position>
+<gparam>LABEL_TEXT 1</gparam>
+<gparam>TEXT_HEIGHT 2</gparam>
+<gparam>angle 0.0</gparam></gate>
+<wire>
+<ID>1</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>29,-32,29,-16</points>
+<connection>
+<GID>2</GID>
+<name>OUT_0</name></connection>
+<intersection>-32 3</intersection>
+<intersection>-20.5 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>29,-20.5,59.5,-20.5</points>
+<connection>
+<GID>8</GID>
+<name>IN_0</name></connection>
+<intersection>29 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>29,-32,48,-32</points>
+<connection>
+<GID>10</GID>
+<name>IN_1</name></connection>
+<intersection>29 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>3</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>25.5,-43.5,25.5,-11</points>
+<connection>
+<GID>15</GID>
+<name>OUT_0</name></connection>
+<intersection>-43.5 6</intersection>
+<intersection>-36.5 3</intersection>
+<intersection>-11 4</intersection></vsegment>
+<hsegment>
+<ID>3</ID>
+<points>25.5,-36.5,48,-36.5</points>
+<connection>
+<GID>11</GID>
+<name>IN_0</name></connection>
+<intersection>25.5 0</intersection></hsegment>
+<hsegment>
+<ID>4</ID>
+<points>25.5,-11,29,-11</points>
+<intersection>25.5 0</intersection>
+<intersection>29 7</intersection></hsegment>
+<hsegment>
+<ID>6</ID>
+<points>25.5,-43.5,59.5,-43.5</points>
+<connection>
+<GID>12</GID>
+<name>IN_0</name></connection>
+<intersection>25.5 0</intersection></hsegment>
+<vsegment>
+<ID>7</ID>
+<points>29,-12,29,-11</points>
+<connection>
+<GID>2</GID>
+<name>IN_0</name></connection>
+<intersection>-11 4</intersection></vsegment></shape></wire>
+<wire>
+<ID>4</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>39.5,-45.5,39.5,-16</points>
+<connection>
+<GID>5</GID>
+<name>OUT_0</name></connection>
+<intersection>-45.5 3</intersection>
+<intersection>-30 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>39.5,-30,48,-30</points>
+<connection>
+<GID>10</GID>
+<name>IN_0</name></connection>
+<intersection>39.5 0</intersection></hsegment>
+<hsegment>
+<ID>3</ID>
+<points>39.5,-45.5,59.5,-45.5</points>
+<connection>
+<GID>12</GID>
+<name>IN_1</name></connection>
+<intersection>39.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>5</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>56.5,-37.5,56.5,-35</points>
+<intersection>-37.5 2</intersection>
+<intersection>-35 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>56.5,-35,59.5,-35</points>
+<connection>
+<GID>17</GID>
+<name>IN_1</name></connection>
+<intersection>56.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>54,-37.5,56.5,-37.5</points>
+<connection>
+<GID>11</GID>
+<name>OUT</name></connection>
+<intersection>56.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>6</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>56.5,-33,56.5,-31</points>
+<intersection>-33 2</intersection>
+<intersection>-31 1</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>54,-31,56.5,-31</points>
+<connection>
+<GID>10</GID>
+<name>OUT</name></connection>
+<intersection>56.5 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>56.5,-33,59.5,-33</points>
+<connection>
+<GID>17</GID>
+<name>IN_0</name></connection>
+<intersection>56.5 0</intersection></hsegment></shape></wire>
+<wire>
+<ID>7</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>65.5,-21.5,67.5,-21.5</points>
+<connection>
+<GID>8</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>19</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>8</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>65.5,-34,68,-34</points>
+<connection>
+<GID>17</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>20</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>9</ID>
+<shape>
+<hsegment>
+<ID>1</ID>
+<points>65.5,-44.5,68.5,-44.5</points>
+<connection>
+<GID>12</GID>
+<name>OUT</name></connection>
+<connection>
+<GID>21</GID>
+<name>N_in0</name></connection></hsegment></shape></wire>
+<wire>
+<ID>10</ID>
+<shape>
+<vsegment>
+<ID>0</ID>
+<points>35,-38.5,35,-10.5</points>
+<connection>
+<GID>14</GID>
+<name>OUT_0</name></connection>
+<intersection>-38.5 5</intersection>
+<intersection>-22.5 1</intersection>
+<intersection>-10.5 2</intersection></vsegment>
+<hsegment>
+<ID>1</ID>
+<points>35,-22.5,59.5,-22.5</points>
+<connection>
+<GID>8</GID>
+<name>IN_1</name></connection>
+<intersection>35 0</intersection></hsegment>
+<hsegment>
+<ID>2</ID>
+<points>35,-10.5,39.5,-10.5</points>
+<intersection>35 0</intersection>
+<intersection>39.5 3</intersection></hsegment>
+<vsegment>
+<ID>3</ID>
+<points>39.5,-12,39.5,-10.5</points>
+<connection>
+<GID>5</GID>
+<name>IN_0</name></connection>
+<intersection>-10.5 2</intersection></vsegment>
+<hsegment>
+<ID>5</ID>
+<points>35,-38.5,48,-38.5</points>
+<connection>
+<GID>11</GID>
+<name>IN_1</name></connection>
+<intersection>35 0</intersection></hsegment></shape></wire></page 0>
+<page 1>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 1>
+<page 2>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 2>
+<page 3>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 3>
+<page 4>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 4>
+<page 5>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 5>
+<page 6>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 6>
+<page 7>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 7>
+<page 8>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 8>
+<page 9>
+<PageViewport>0,0,139.4,-69.4</PageViewport></page 9></circuit>
